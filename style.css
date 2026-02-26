@@ -1,0 +1,56 @@
+body {
+    background: #e8f5e9; /* Verde bem clarinho */
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    background: white;
+    width: 90%;
+    max-width: 350px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    background: #2e7d32; /* Verde grama */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 0 auto 15px;
+}
+
+h2 { color: #1b5e20; margin-bottom: 5px; }
+p { color: #666; margin-bottom: 25px; }
+
+.links { display: flex; flex-direction: column; gap: 15px; }
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.whatsapp { background: #25d366; }
+.instagram { background: #e1306c; }
+.telefone { background: #1976d2; }
+
+.btn:active { transform: scale(0.95); }
